@@ -1,20 +1,57 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" href="{% static 'css/style.css' %}" rel="stylesheet" />
     <title>Document</title>
 </head>
+
 <body>
     <table>
-        <th colspan="6"> NOTAS</th>
+        <th colspan="2"> NOTAS</th>
         <tr>
-            <td>nota 1</td>
-            <td><label for="nota">{} </label></td>
+            <td>
+                nota1
+            </td>
+            <td>
+                <label for="num1">{{N1}} </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num2">{{N2}} </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num3">{{N3}} </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num4">{{N4}} </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num5">{{N5}} </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num6">{{N6}} </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="promedio final">{{promedio_final}}</label>
+            </td>
         </tr>
     </table>
-    
+    </form>
 </body>
+
 </html>

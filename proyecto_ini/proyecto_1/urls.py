@@ -17,7 +17,7 @@ Including another URLconf
 """aqui solo se importan las vistas que vaya a usar dependiendo del paginado del sitio"""
 from django.contrib import admin
 from django.urls import path
-from proyecto_1.views import index, promedios
+from proyecto_1.views import index, promedios, promedios
 
 
 """aqui se configuran las  URL, necesito aprender bien como se llaman y usan"""
