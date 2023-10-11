@@ -14,8 +14,8 @@
 </head>
 
 <body>
-<form action="/promd/" method="get">
-        <table class="tabla">
+<form action="/promd/" method="post">
+        <table>
             <tr>
                 <td><label>Nombre: </label></td>
                 <td><input type="text" id="nombre" placeholder="Ingrese nombre" name="nom_est"></td>
@@ -31,18 +31,25 @@
             <tr>
                 <td><label> Notas: </label></td>
                 <td class="notas">
-                    <input type="number" placeholder="nota 1" name="nota1" >
-                    <input type="number" placeholder="nota 2" name="nota2" >
-                    <input type="number" placeholder="nota 3" name="nota3" >
-                    <input type="number" placeholder="nota 4" name="nota4" >
-                    <input type="number" placeholder="nota 5" name="nota5" >
-                    <input type="number" placeholder="nota 6" name="nota6" >
+                    <input type="number" placeholder="Ingles" name="nota1" >
+                    <br>
+                    <input type="number" placeholder="Desarrollo web" name="nota2" >
+                    <br>
+                    <input type="number" placeholder="Logica de programacion" name="nota3" >
+                    <br>
+                    <input type="number" placeholder="Administracion de DB" name="nota4" >
+                    <br>
+                    <input type="number" placeholder="Matematica Computacional" name="nota5" >
+                    <br>
+                    <input type="number" placeholder="Tecnologias Computacionales" name="nota6" >
                 </td>
             </tr>
             <tr>
-                <td colspan="2">
-                    <input type="reset" name="enviar" value="reset">
-                    <input type="submit" name="submt" >
+                <td>
+                    <input type="reset" name="enviar" value="limpiar" class="btn">
+                    </td>
+                    <td>
+                    <input type="submit" name="submt" class="btn">
                 </td>
             </tr>
         </table>

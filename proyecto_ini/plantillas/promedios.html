@@ -11,10 +11,38 @@
 
 <body>
     <table>
+        <p>
         <th colspan="2"> NOTAS</th>
         <tr>
             <td>
-                nota1
+                Nombre del alumno:
+            </td>
+            <td>
+                {{nombre_al}}
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Run
+            </td>
+            <td>
+                {{Run}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Carrera
+            </td>
+            <td>
+                {{nombre_al}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <B>
+                    nota1
+                </B>
             </td>
             <td>
                 <label for="num1">{{N1}} </label>
@@ -22,34 +50,67 @@
         </tr>
         <tr>
             <td>
+                <B>
+                    nota2
+                </B>
+            </td>
+            <td>
                 <label for="num2">{{N2}} </label>
             </td>
         </tr>
         <tr>
+            <td>
+                <B>
+                    nota3
+                </B>
+            </td>
             <td>
                 <label for="num3">{{N3}} </label>
             </td>
         </tr>
         <tr>
             <td>
+                <B>
+                    nota4
+                </B>
+            </td>
+            <td>
                 <label for="num4">{{N4}} </label>
             </td>
         </tr>
         <tr>
+            <td>
+                <B>
+                    nota5
+                </B>
+            </td>
             <td>
                 <label for="num5">{{N5}} </label>
             </td>
         </tr>
         <tr>
             <td>
+                <B>
+                    Nota 6
+                </B>
+            </td>
+            <td>
                 <label for="num6">{{N6}} </label>
             </td>
         </tr>
         <tr>
             <td>
-                <label for="promedio final">{{promedio_final}}</label>
+                <B>
+                    Promedio final
+                </B>
+            </td>
+            <td colspan="2">
+                <div class="prom_fin">
+                    <label for="promedio final">{{promedio_final}}</label>
+                </div>
             </td>
         </tr>
+    </p>
     </table>
     </form>
 </body>
