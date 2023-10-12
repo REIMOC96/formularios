@@ -23,11 +23,12 @@ def promedios(request):
    nomb = str(request.POST["nom_est"])
    run = str (request.POST["run_est"])
    carr = str(request.POST["Carrera"]) 
+   mod = str (request.POST["modulo"])
    #podria poner un if - else, para verificar que los valores no esten vacios pero tengosueño C:
 
    return render( request, "promedios.html",{"N1":num1,"N2":num2,"N3":num3, "N4":num4,
    "N5":num5, "N6":num6, "promedio_final":promd,"nombre_al":nomb,
-   "Run":run, "Carrera":carr,})
+   "Run":run, "Carrera":carr,"mod":mod,})
 
 """   
 @csrf_exempt
